@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    height: 40em;
+    width: 40em;
+}
+
+/* SUN */
+.sun{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px white;
+    background-color: yellow;
+}
+
+/* MERCURY */
+.mercury-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5em;
+    height: 5em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 6s linear infinite;
+}
+.mercury{
+    position: absolute;
+    left: 50%;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: gray;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* VENUS */
+.venus-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8em;
+    height: 8em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 10s linear infinite;
+}
+.venus{
+    position: absolute;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* EARTH and MOON*/
+.earth-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12em;
+    height: 12em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 15s linear infinite;
+}
+.earth{
+    position: absolute;
+    left: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: aqua;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.moon-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2.6em;
+    height: 2.6em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 5s linear infinite;
+}
+.moon{
+    position: absolute;
+    left: 50%;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* MARS */
+.mars-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 17em;
+    height: 17em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 20s linear infinite; 
+}
+.mars{
+    position: absolute;
+    left: 50%;
+    width: 1.1em;
+    height: 1.1em;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ASTEROIDS */
+.asteroids{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20em;
+    height: 20em;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 120s linear infinite;
+}
+.asteroids1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20.3em;
+    height: 20.3em;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 120s linear infinite;
+}
+/* JUPITER */
+.jupiter-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25em;
+    height: 25em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 25s linear infinite;
+}
+.jupiter{
+    position: absolute;
+    left: 50%;
+    width: 2em;
+    height: 2em;
+    background-color: orangered;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* SATURN */
+.saturn-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30.5em;
+    height: 30.5em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 30s linear infinite;
+} 
+.saturn{
+    position: absolute;
+    left: 50%;
+    width: 1.7em;
+    height: 1.7em;
+    background-color: palegoldenrod;
+    border-radius: 50%;
+    transform: translate(-50%, -50%); 
+}
+/* URANUS */
+.uranus-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 34em;
+    height: 34em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 35s linear infinite;
+}
+.uranus{
+    position: absolute;
+    left: 50%;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: blueviolet;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+/* NEPTUNE */
+.neptune-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 37.5em;
+    height: 37.5em;
+    /* border: 1px dashed grey; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 40s linear infinite;
+}
+.neptune{
+    position: absolute;
+    left: 50%;
+    width: 1.1em;
+    height: 1.1em;
+    background-color: blue;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ANIMATION */
+@keyframes orbit{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg)
+    }
+}
